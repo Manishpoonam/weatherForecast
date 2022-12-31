@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.main{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1059%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(216%2c 230%2c 233%2c 1)'%3e%3c/rect%3e%3cpath d='M774.91 69.65 a157.62 157.62 0 1 0 315.24 0 a157.62 157.62 0 1 0 -315.24 0z' fill='rgba(26%2c 113%2c 130%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M727.91 340.86 a107.6 107.6 0 1 0 215.2 0 a107.6 107.6 0 1 0 -215.2 0z' fill='rgba(26%2c 113%2c 130%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M33.35 239.94 a151.96 151.96 0 1 0 303.92 0 a151.96 151.96 0 1 0 -303.92 0z' fill='rgba(26%2c 113%2c 130%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M725.21 383.49 a132.83 132.83 0 1 0 265.66 0 a132.83 132.83 0 1 0 -265.66 0z' fill='rgba(26%2c 113%2c 130%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1059'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80svh;
+    flex-direction: column;
+    
+}
+
+input{
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    min-width: 300px;
+    font-size: 1rem;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+
+
+.weather{
+    text-align: center;
+    font-size: 2rem ;
+}
+
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* .weather img{
+    transform: scale(2);
+} */
